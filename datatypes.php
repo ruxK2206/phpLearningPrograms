@@ -27,6 +27,5 @@ echo "<br>";
 echo $friends[2];
 echo "<br>";
 echo $friends[3];
-
 ?>
 
