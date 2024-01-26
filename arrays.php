@@ -1,4 +1,11 @@
 <?php
+echo "_____-----------------______";
+echo"<br>";
+echo"Array";
+echo"<br>";
+
+// Array and its types
+
 $arr = array('i','me','myself');
 echo $arr[0];
 echo"<br>";
@@ -30,4 +37,8 @@ echo"<br>";
 echo $favCol['Rawnak'];
 echo"<br>";
 echo $favCol[5];
+echo"<br>";
+echo "_____-----------------______";
+
+
 ?>
