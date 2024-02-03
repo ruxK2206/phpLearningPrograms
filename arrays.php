@@ -39,6 +39,13 @@ echo"<br>";
 echo $favCol[5];
 echo"<br>";
 echo "_____-----------------______";
+echo"<br>";
 
+ 
+
+//array flip
+ $arr = array("c" =>1, "C++" =>2, "Java" => 3, "python" => 8);
+ echo "Output of first example <br>";
+ print_r(array_flip($arr));
 
 ?>
