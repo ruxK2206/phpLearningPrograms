@@ -39,13 +39,19 @@ echo"<br>";
 echo $favCol[5];
 echo"<br>";
 echo "_____-----------------______";
-echo"<br>";
+echo"<br>"; 
 
  
 
-//array flip
+//array flip associative array
  $arr = array("c" =>1, "C++" =>2, "Java" => 3, "python" => 8);
  echo "Output of first example <br>";
  print_r(array_flip($arr));
+
+ for($i = 0; $i < 4; $i++)
+ {
+    echo $arr[$i]. ' ';
+
+ }
 
 ?>
