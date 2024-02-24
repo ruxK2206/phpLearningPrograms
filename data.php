@@ -5,8 +5,8 @@
 <body>
 
 <p>new data entered<br>
-name = <?php echo$_GET['name']?>
-password = <?php echo$_GET['pass']?>
+name = <?php echo$_POST["name"];?>
+password = <?php echo$_POST["pass"];?>
 </p>
 </body>
 </html>

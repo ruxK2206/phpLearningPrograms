@@ -4,10 +4,10 @@
     <title>Document</title>
 </head>
 <body>
-<form action="data.php" method = "get">
+<form action="data.php" method = "POST">
 
     Name:  <input typ="text" name = "name">
-    Password:  <input typ="password" name = "pass">
+    Password:  <input type="password" name = "pass">
     <input type="submit">
 
 </form>
