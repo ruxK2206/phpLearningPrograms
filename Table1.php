@@ -24,6 +24,7 @@ else
 //creating A Table
 $sql = "CREATE TABLE `ruxk_1` (`Name` VARCHAR(25) NOT NULL , `S_ID` INT(255) NOT NULL , `Password` INT(10) NOT NULL , `Email` VARCHAR(35) NOT NULL )";
 
+
 //check for creation
 $result = mysqli_query($conn, $sql);
 if($result)
