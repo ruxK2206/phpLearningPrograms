@@ -6,6 +6,9 @@ $age = 567;
 $name = "Ronak";
 echo"i am $name <br>";
 //2 --- integer
+
+
+
 $age = 2442;
 echo"age is $age<br>  ";
 //3 --- float - Decimal point number
